@@ -1,0 +1,2 @@
+Before trying to develope web apps, it's important to understand the tools you'll be using.  
+Javascript is one of the foundational skills for any fullstack developer, take the time to learn it well!  

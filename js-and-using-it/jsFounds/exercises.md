@@ -7,4 +7,5 @@ Practice, Practice, Practice:
    * [Code Wars](https://www.codewars.com/users/sign_in) - Can't recommend this one enough.  Work on whatever challenges you like, the more you like it the more you'll learn!  
 
 https://github.com/exercism/javascript
+
 http://exercism.io/languages/javascript/exercises

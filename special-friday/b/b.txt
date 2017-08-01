@@ -1,0 +1,5 @@
+	b - approaching solutions
+		building abstractions
+		flow charts
+		modeling
+		strategy

@@ -22,4 +22,3 @@ https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_Ja
 
 ### jQuery
 * jquery tips everyone should know: https://github.com/AllThingsSmitty/jquery-tips-everyone-should-know
-

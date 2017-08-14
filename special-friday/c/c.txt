@@ -1,5 +1,0 @@
-	c - creating solutions
-		boolean logic
-		conditional checks
-		pseudocode
-		specs

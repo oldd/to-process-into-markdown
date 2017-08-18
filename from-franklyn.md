@@ -70,3 +70,12 @@ Strict mode
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode
 Others
 https://files.slack.com/files-pri/T3KMVNZGT-F5GJGJS3A/download/exp1-classes.zip
+
+[design patterns](http://shichuan.github.io/javascript-patterns/)    
+  
+
+[javascript is sexy OOP](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/).  suggested by Franklyn  
+  
+[huge and good](http://www.zipcon.net/~swhite/docs/computers/languages/object_oriented_JS/index.html)  
+
+https://github.com/advanced-js	

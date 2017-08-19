@@ -6,7 +6,6 @@ Read these things.  (or watch them if they're videos) -
    * [Self Documenting Javascript](https://www.sitepoint.com/self-documenting-javascript/) - Do this.  
    * [Cleaner, Better Code](http://www.makeuseof.com/tag/10-tips-writing-cleaner-better-code/) - 10 tips.  
    * [Be reasonable with yourself](http://norvig.com/21-days.html) - This stuff takes work, and more that, then a lot of practice.  
-   * [Marksheet](http://marksheet.io/) - Good overview of the internet and an introduction to front-end tools, HTML and CSS.  
    * [Writing Terrible Code](https://www.se.rit.edu/~tabeec/RIT_441/Resources_files/How%20To%20Write%20Unmaintainable%20Code.pdf).  
 
 https://www.frontendhandbook.com

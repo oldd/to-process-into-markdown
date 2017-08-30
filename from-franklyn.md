@@ -100,3 +100,5 @@ And finally, someone who has done this better than I can:
 		
 
 http://www.competa.com/blog/an-object-oriented-javascript-cheat-sheet-for-people-who-are-new-to-the-language/
+
+http://openmymind.net/

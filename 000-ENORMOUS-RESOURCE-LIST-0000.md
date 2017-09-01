@@ -15,6 +15,10 @@ https://medium.com/the-react-native-log/a-brief-overview-of-es6-for-react-native
 
 Stephen Grider Udemy
 
+projects and all
+	https://github.com/advanced-js
+	contact them?
+	student adding feature (gh page)
 
 Closures
 http://javascriptissexy.com/understand-javascript-closures-with-ease/

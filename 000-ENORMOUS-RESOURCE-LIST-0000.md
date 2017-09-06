@@ -1,199 +1,128 @@
 
-# OOP 2 - Prototypical Inheritance
-___
-#### Table of Contents
-* [intro]()
-* [Absolute Must Learn Fundamentals](#prototypical-fundamentals)
-    * [proto lookup chain](#proto-lookup-chain)
-    * [dot create](#dot-create)
-    * [dot assign](#dot-assign)
-    * [resources](#fundamental-resources)
-* [Using Inheritance Fundamentals](#using-inheritance-fundamentals)    
-    * [factories](#factories)
-    * [factories and closures](#factories-and-closures)
-    * [recommeded design patterns](#recomended-design-patterns)
-    * [resources](#factory-resources)
-* [Other Ways to Inherit](#other-ways-to-inherit)
-    * [Constructor Functions](#constructor-functions)
-    * [Classes with Constructor Functions](#classes-with-constructor-functions)
-    * [ES6 classes](#es6-classes)
-    * [resources](#other-ways-resources)
-* [Op Eds](#comprehensive-resources)
-___
-___
-## Prototypical Fundamentals
-[TOP](#table-of-contents)
-___
-### Proto Lookup Chain
-[TOP](#table-of-contents)
-___
-### Dot Create
-[TOP](#table-of-contents)
-___
-### Dot Assign 
-[TOP](#table-of-contents)
-___
-### Fundamental Resources
-[Proto Fundamentals](#Prototypicla-fundamentals)
-[TOP](#table-of-contents)
-___
-___
-## Using Inheritance Fundamentals
-[TOP](#table-of-contents)
-___
-### Factories
-[TOP](#table-of-contents)
-___
-### Factories and Closures
-[TOP](#table-of-contents)
-___
-### Recommended Design Patterns
-[TOP](#table-of-contents)
-___
-### Factory Resources 
-[Inheritance Fundamentals](#using-inheritance-fundamentals)
-[TOP](#table-of-contents)
-___
-___
-## Other Ways to Inherit
-[TOP](#table-of-contents)
-___
-### Constructor Functions
-[TOP](#table-of-contents)
-___
-### Classes with Constructor Functions 
-[TOP](#table-of-contents)
-___
-### ES6 Classes 
-[TOP](#table-of-contents)
-___
-### Other Ways Resources 
-[Other Ways](#other-ways-to-inherit)
-[TOP](#table-of-contents)
-___
-___
-## Op Eds
-[TOP](#table-of-contents)
-___
+https://github.com/tcorral/exercises-javascript
+
+https://github.com/stujo 
+	https://github.com/stujo/javascript-adventure 
+	https://github.com/stujo/javascript_notes - projects 
+	https://github.com/stujo/javascript-node-tic-tac-toe 
+	https://github.com/stujo/tictactoe-api 
+	checked through page 5
+
+https://github.com/cwbuecheler/node-tutorial-for-frontend-devs
+
+server code in browser http://www.bradoncode.com/tutorials/browserify-tutorial-node-js/
+
+https://medium.com/the-react-native-log/a-brief-overview-of-es6-for-react-native-developers-15e7c68315da
+
+Stephen Grider Udemy
+
+projects and all https://github.com/advanced-js contact them? student adding feature (gh page)
+
+Closures 
+	http://javascriptissexy.com/understand-javascript-closures-with-ease/ 
+	http://maxlab.fr/javascript/javascript-methodes-avancees/ 
+Promises 
+	mdn doc 
+Async 
+	https://caolan.github.io/async/ 
+Asynchronous error handling in JavaScript 
+	https://ruben.verborgh.org/blog/2012/12/31/asynchronous-error-handling-in-javascript/ 
+bind, apply, call Arrow functions 
+	https://rainsoft.io/when-not-to-use-arrow-functions-in-javascript/ 
+	https://www.sitepoint.com/es6-arrow-functions-new-fat-concise-syntax-javascript/
+Functions 
+	http://javascript.info/advanced-functions 
+Constructors vs functions 
+	https://stackoverflow.com/questions/22401553/what-are-all-the-difference-between-function-and-constructor-function-in-javascr 
+Strict mode 
+	https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode 
+Others 
+	https://files.slack.com/files-pri/T3KMVNZGT-F5GJGJS3A/download/exp1-classes.zip
+
+[design patterns] http://shichuan.github.io/javascript-patterns/ 
+http://www.competa.com/blog/an-object-oriented-javascript-cheat-sheet-for-people-who-are-new-to-the-language/
+
+http://openmymind.net/
+
+What the … js? If you’re cruising ahead. Check out the deep js https://www.youtube.com/watch?v=2pL28CcEijU
+
+Humorous (serious) history of javascript if you’re interested. Not necessary https://www.destroyallsoftware.com/talks/the-birth-and-death-of-javascript
+
+List (good) of interview quesitions http://www.skilledup.com/articles/20-must-know-javascript-interview-qa
+
+Hoisting http://stackoverflow.com/questions/10081593/are-named-functions-or-anonymous-functions-preferred-in-javascript
+
+Cars and supercars GOOOD constructor vs prototype http://stackoverflow.com/questions/892595/understanding-prototypal-inheritance-in-javascript
+
+Caching
+But truely, ignore this section https://coderwall.com/p/tyy7lw/function-caching-in-javascript-caching-catching response https://coderwall.com/p/ueg_aw/function-level-cache-in-javascript
+
+J. S. Ninja http://webandbeer.com.ar/wp-content/uploads/2014/11/SecretsOfTheJavaScriptNinja.pdf
+
+A video if you’ve experience with true classes and only if. Otherwise it confuses things https://www.youtube.com/watch?v=nNxjzHh6chY
+
+Functions inherit from this https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype
+
+Debugging tips http://image.slidesharecdn.com/debugging-150113122930-conversion-gate02/95/notes-on-debugging-14-638.jpg?cb=1421174030
+
+learnJavascriptProperly a tutorial http://javascriptissexy.com/how-to-learn-javascript-properly/
+
+------- SORTED -----
+Thinkn’t objects and oop, tis pbp 
+	https://en.wikipedia.org/wiki/Prototype-based_programming 
+Primitive-object fluidity 
+	https://javascriptweblog.wordpress.com/2010/09/27/the-secret-life-of-javascript-primitives/ 
+*Sporto - protos IN RETROSPECT, AMAZING diagram Illustrative, simple code illustrations Great narrow answers with grand in mind 
+	http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/ 
+Hangar - object/function relationship. All the way to closures Great code snipets Refrence, assignment, scope. In doSomething ...and ‘this’ makes sense (sayHello bit) FA zaphod, marvin. Runtime defined ‘this’. That and props are pointings operationsoperation vs operations.operation(x,y) Bracket notation at “operations” 
+So far most absorbing for me http://hangar.runway7.net/javascript/guide Toptal 
+- similar spread as hangar .prototype. After chain diagram. 
+	Illustrates runtimeness of scope And good diagram 
+	https://www.toptal.com/javascript/javascript-prototypes-scopes-and-performance-what-you-need-to-know 
+Tylermcginnis - Ways to instatiate 
+Also react guy 
+	https://tylermcginnis.com/object-creation-in-javascript-functional-instantiation-vs-prototypal-instantiation-vs-pseudo-e9287b6bbb32#.814pa15ed 
+Prototype object Clears up where the prototype object lives and it’s scope of influence 
+	http://www.javascriptkit.com/javatutors/proto.shtml 
+Mozilla Object vs function instance prototypes 
+	https://developer.mozilla.org/en/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
+
+old list of comprehensives https://docs.google.com/document/d/1H2BgYQmCFpSeaU2UxT7iGWPDedg1KIqIVLLCreA5VmI/edit
+
+4508313 using proto vs in constructor 310870
+
+Prototyped vs classical inheritance 186244
+
+constructor functions mentioned
+	5837795 whiteboard and cool chaining thing
+	Objects - nope, prototypes 
+		http://javascriptissexy.com/javascript-objects-in-detail/ 
+	Bytearcher - protos bah Early hit on “this” Code illustration of obj.proto.prop use. 	To give to all siblings? 
+		http://bytearcher.com/articles/understanding-prototype-property-in-javascript/
+	Socratic intro to protos quite good, review today. 
+		-
+		 - Mentions primitives. 
+		Good path 
+			https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/ 
 
 
+https://github.com/excellalabs/the-javascript-curriculum
 
-____________
-Using JS for object oriented programming is cheating yourself.  JS is like the clay of life, it can be molded into anything.  But many things are a betrayal to it's true nature.  The beauty of the language lies it's functional aspects and its lack of classical inheritance.  If you know what that means, ignore it.  If you don't, forget about it.
+Techsith - closures
 
-In JS objects are the players, not the game.   The game is Functional Programming (closure, pure functions), the players are objects. If you have experience in most other programming languages this will take adjustment.  
+https://gist.github.com/stujo/e6ac79c6dd2ed5ece316
 
-JS is to classical programming as legos are to play-mobile.
+http://dave-reed.com/Nifty/ projects
 
-The freedom can be overwhelimg.  It is easy to fall into common Classical design patterns, bad in the long run.  
+goood thing. Clears up vocab ambiguity http://ryanmorr.com/understanding-scope-and-context-in-javascript/
 
-This lesson will teach you the fundamentals of O-O inheritance in JS and provide you with 2 simple design patterns you can use.
-
-great if you know something about programming already
-	https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3
-
-The seminal “Design Patterns” book by the Gang of Four is built around two foundational principles:
-“Program to an interface, not an implementation,” and “favor object composition over class inheritance.”
-
-
-https://medium.com/javascript-scene/javascript-factory-functions-vs-constructor-functions-vs-classes-2f22ceddf33e
-
-midway down.  retailor objects and this lesson to use factories? be more js-specific?
-	+ correct
-	+ not see so many conflictings
-	- more complicated (?)
-	- will see classes everywhere
-	- this opens slippery slopes
-do classes but say what this article does
-say this 'class' thing is one of MANY design patterns in js.  it's a good one to start with because it is easier to wrap your head around at first.  but as your understaniding of js grows, you can make cooler things
-
-object.create, object.assign
-
-https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a
-	let animal = {
-	  animalType: 'animal',
-	 
-	  describe () {
-	    return `An ${this.animalType} with ${this.furColor} fur, 
-	      ${this.legs} legs, and a ${this.tail} tail.`;
-	  }
-	};
-	 
-	let mouseFactory = function mouseFactory () {
-	  return Object.assign(Object.create(animal), {
-	    animalType: 'mouse',
-	    furColor: 'brown',
-	    legs: 4,
-	    tail: 'long, skinny'
-	  });
-	};
-
-	let mickey = mouseFactory();
-
-	closures for data privacy
+ADV architectures 
+	http://marcobotto.com/frontend-javascript-single-page-application-architecture/
+	and singlepagappbook - old and opinionated 
+https://bitworking.org/news/2014/05/zero_framework_manifesto 
+https://dev.to/vinay20045/building-a-single-page-application-with-vanilla-js - https://github.com/vinay20045/vinay20045.github.io 
+https://github.com/albinotonnina/vanilla-js-spa 
+https://docs.google.com/document/d/1aECM3ISwTVXheIxyVIK4jMtbyaoVc7--gn9dx4u8COA/edit eh - https://mmikowski.github.io/no-frameworks/ 'inversion of control'
 
 
-use factories not constructors.  ignore Classes
-	close over values in returned objects
-
-
-change data-structures problems from classes
-	or leave it? 
-	change it
-
-patterns
-	http://radar.oreilly.com/2014/03/javascript-without-the-this.html
-	http://davidshariff.com/blog/javascript-inheritance-patterns/ 
-		- function from crockford (each no centralized methods)
-		- prototypal - best to teach?
-
-
-___________________
-
-
-
-class exercise:  convert .protos to classes
-
-NO CLASSES.  IN 'OBJECTS' SAY NEVER TO USE CONSTRUCTORS.  WHEN READING MODULES SAY HOW THEY COULD ALL BE DONE WITHOUT INHERITANCE.
-
-
-
-Other good alternatives include making better use of JavaScript modules as an alternative to inheritance (I recommend npm and ES6 modules with Browserify or WebPack), or simply cloning objects by copying properties from a source object to a new object (e.g. `Object.assign()`, `$.extend()`, `_.extend()`, etc…).
-
-
-
-
-# OOP 2 - Classes and Inheritance
-In the last installment you saw how to build programs from units of code called objects.  In the code-series 'Objects' you saw functions that produce objects.  This lesson you will see the next conceptual step (Inheritance) and the JS language feature for implementing it (Classes).
-___
-### Why Not Literals ?
-Object literals are great for representing single objects, but the fail to capture the relationships between single objects.
-
-An intuitive analogy is the tree of life:
-* All mammals have hair and warm blood.
-* Some mammals have wings and others don't, but they all still have hair.
-* Mammals and reptiles all have a spine, but don't share warm blood.
-* No two animals have an identical genome.
-* ...
-
-There is a hierarchy of traits in the animal kingdom.  Some traits are unique to single animals, some traits are unique to a species, some to a genus, ... until you arrive at a few traits common to ALL animals.
-
-With object literals there is no efficient way to model this, you'd have to go object-by-object and make sure that the jelly fish has what it needs, the bat has what it needs, the lizard, ...  
-Wouldn't it be nice if there was a way to simply say 'this object is a lizard' and automatically give it all lizard properties? And if we wanted to change shared properties of lizards without having to find ALL lizards and change them ALL one at a time?
-
-There is with classes and inheritance.
-___
-### Why Classes and Inheritance ?
-* _Dynamic Control_: Modify the behavior of your entire program from a single location (the Class definition).
-* _Code Reuse_: Make endless objects without needing to write endless objects by hand.
-* _Effective Modeling_: Create large and accurate models of the real world in your program by mimicking real-world classifications (ie. novels and thesauri are both books).
-
-Understanding inheritance allows you to achieve more with less code. With Class syntax it's not only more with less, it's completely new possiblities.  
-___
-  
-instances and classes  
-  
-what goes in class, what goes in instance?
-
-* [outstanding video](https://www.youtube.com/watch?v=SS-9y0H3Si8)
 

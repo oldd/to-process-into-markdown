@@ -1,3 +1,5 @@
+https://trello.com/b/oinINq9f/learn-javascript-properly-experienced-programmers-roadmap
+
 
 https://github.com/tcorral/exercises-javascript
 

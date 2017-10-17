@@ -120,7 +120,7 @@ goood thing. Clears up vocab ambiguity http://ryanmorr.com/understanding-scope-a
 
 ADV architectures 
 	http://marcobotto.com/frontend-javascript-single-page-application-architecture/
-	and singlepagappbook - old and opinionated 
+	and singlepagappbook - old and opinionated w
 https://bitworking.org/news/2014/05/zero_framework_manifesto 
 https://dev.to/vinay20045/building-a-single-page-application-with-vanilla-js - https://github.com/vinay20045/vinay20045.github.io 
 https://github.com/albinotonnina/vanilla-js-spa 
